@@ -27,18 +27,17 @@ main {
 
 }
 
-.top {
+.logo {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100px;
+    margin-top: 24px;
 }
 
 .wrapper {
     border-radius: 50%;
-    width: 62px;
-    height: 62px;
+    width: 80px;
+    height: 80px;
 }
 
 .wrapper img {
@@ -49,7 +48,7 @@ main {
 }
 
 .icons {
-    padding: 22%;
+    margin-top: 80px;
 }
 
 .icons ul {
@@ -60,7 +59,7 @@ main {
 }
 
 .icons li img {
-    width: 50px;
+    width: 64px;
     border-radius: 50%;
     box-shadow: rgba(0, 202, 252, 0.685) 0px 5px 15px;
 }
