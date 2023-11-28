@@ -4,14 +4,27 @@
 }
 
 body {
+   
+    background-color: rgb(230, 255, 253);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+main {
     background-image: url(../img/bg/hand-robot.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-    background-color: aliceblue;
+    margin: auto;
     height: 100vh;
+    max-height: 800px;
     width: 100%;
+    max-width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.836) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 14px;
+
 }
 
 .top {
